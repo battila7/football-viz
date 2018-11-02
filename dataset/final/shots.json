@@ -1,0 +1,62 @@
+{
+    "ownHalf": {
+        "goal": 0,
+        "saved": 0,
+        "off": 1,
+        "unknown": 0
+    },
+    "farEnemyHalf": {
+        "goal": 1,
+        "saved": 43,
+        "off": 76,
+        "unknown": 0
+    },
+    "rightFlank": {
+        "goal": 0,
+        "saved": 8,
+        "off": 6,
+        "unknown": 0
+    },
+    "mid": {
+        "goal": 23,
+        "saved": 316,
+        "off": 219,
+        "unknown": 0
+    },
+    "leftFlank": {
+        "goal": 0,
+        "saved": 7,
+        "off": 4,
+        "unknown": 0
+    },
+    "rightFlank16": {
+        "goal": 10,
+        "saved": 85,
+        "off": 56,
+        "unknown": 0
+    },
+    "mid16": {
+        "goal": 116,
+        "saved": 235,
+        "off": 248,
+        "unknown": 0
+    },
+    "leftFlank16": {
+        "goal": 7,
+        "saved": 85,
+        "off": 62,
+        "unknown": 0
+    },
+    "box": {
+        "goal": 26,
+        "saved": 21,
+        "off": 51,
+        "unknown": 0
+    },
+    "unknown": {
+        "goal": 0,
+        "saved": 0,
+        "off": 0,
+        "unknown": 0
+    }
+}
