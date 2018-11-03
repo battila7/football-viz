@@ -1,0 +1,21 @@
+{
+  "name": "football-viz",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/battila7/football-viz.git"
+  },
+  "author": "Attila Bagossy, Bence Szabó, Róbert Tóth",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/battila7/football-viz/issues"
+  },
+  "homepage": "https://github.com/battila7/football-viz#readme",
+  "devDependencies": {
+    "surge": "^0.20.1"
+  }
+}
