@@ -1,18 +1,80 @@
 var makePitch = (function pitchIIFE() {
     const regions = {
-        mid16: {
+        ownHalf: {
+            x: 50,
+            y: 50,
+            width: 525,
+            height: 680,
+            direction: 'right-left'
+        },
+        farEnemyHalf: {
+            x: 575,
+            y: 50,
+            width: 262.5,
+            height: 680,
+            direction: 'top-bottom'
+        },
+        rightFlank: {
+            x: 837.5,
+            y: 50,
+            width: 262.5,
+            height: 138.5,
+            direction: 'right-left'
+        },
+        mid: {
             x: 837.5,
             y: 188.5,
             width: 97.5,
             height: 403,
             direction: 'top-bottom'
+        },
+        leftFlank: {
+            x: 837.5,
+            y: 591.5,
+            width: 262.5,
+            height: 138.5,
+            direction: 'right-left'
+        },
+        rightFlank16: {
+            x: 935,
+            y: 188.5,
+            width: 165,
+            height: 110,
+            direction: 'right-left'
+        },
+        mid16: {
+            x: 935,
+            y: 298.5,
+            width: 110,
+            height: 183,
+            direction: 'top-bottom'
+        },
+        leftFlank16: {
+            x: 935,
+            y: 481.5,
+            width: 165,
+            height: 110,
+            direction: 'right-left'
+        },
+        box: {
+            x: 1045,
+            y: 298.5,
+            width: 55,
+            height: 183,
+            direction: 'top-bottom'
         }
     };
 
     const outcomeFillColors = {
-        'goal': '#00563B',
-        'saved': '#FEDF00',
-        'off': '#ED2939'
+        goal: '#00aa75',
+        saved: '#ffe632',
+        off: '#f05360'   
+    };
+
+    const outcomeStrokeColors = {
+        goal: '#00563B',
+        saved: '#FEDF00',
+        off: '#ED2939'
     };
 
     return function makePitch(styleOptions, dataset) {
@@ -39,7 +101,9 @@ var makePitch = (function pitchIIFE() {
                     .attr('y', region.y + yOffset)
                     .attr('width', region.width)
                     .attr('height', height)
-                    .style('stroke-width', 0)
+                    .style('stroke', outcomeStrokeColors[outcome])
+                    .style('stroke-width', 2)
+                    .style('stroke-opacity', '0.6')
                     .style('fill', outcomeFillColors[outcome])
                     .style('fill-opacity', '0.6');
 
@@ -58,15 +122,22 @@ var makePitch = (function pitchIIFE() {
                     .attr('y', region.y)
                     .attr('width', width)
                     .attr('height', region.height)
-                    .style('stroke-width', 0)
+                    .style('stroke', outcomeStrokeColors[outcome])
+                    .style('stroke-width', 2)
+                    .style('stroke-opacity', '0.6')
                     .style('fill', outcomeFillColors[outcome])
                     .style('fill-opacity', '0.6');
 
                 xOffset += width;
             }
         }
-
-        fillRegionRightLeft(regions['mid16'], dataset['mid16']);
+        for (const key of Object.keys(dataset)) {
+            if (regions[key].direction == 'top-bottom') {
+                fillRegionTopBottom(regions[key], dataset[key]);
+            } else {
+                fillRegionRightLeft(regions[key], dataset[key]);
+            }
+        }
     }
 
     function drawPitch(container, options) {
