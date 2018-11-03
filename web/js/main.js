@@ -1,6 +1,9 @@
 (function mainIIFE() {
     downloadDataset()
-        .then(dataset => makePitch(pitchStyle, dataset));
+        .then(dataset => {
+            makePitch(pitchStyle, dataset);
+            makeGradient(gradientStyle, dataset);
+        });
 
     var pitchStyle = {
         selector: '.visualization-container',
@@ -8,7 +11,13 @@
         height: '100%',
         lineColor: '#FFFFFF',
         lineWidth: 5,
-        grassColor: "#A1C349"
+        grassColor: '#3bba21'
+    };
+
+    var gradientStyle = {
+        selector: '.gradient-panel',
+        width: '100%',
+        height: '100%',
     };
 
     function downloadDataset() {
