@@ -68,10 +68,6 @@ body {
     font-size: 1.25rem;
 }
 
-.legend-container {
-
-}
-
 .legend-title {
     font-variant: small-caps;
 }
@@ -80,4 +76,13 @@ body {
     font-weight: 300;
     font-size: 1rem;
     width: 50%;
+}
+
+.logo-container {
+    padding-top: 2rem;
+    width: 90%;
+}
+
+.logo-container img {
+    width: 35%;
 }
