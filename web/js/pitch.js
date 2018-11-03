@@ -211,5 +211,23 @@ var makePitch = (function pitchIIFE() {
                     .attr('fill', options.lineColor)
                     .attr('transform', `rotate(${alpha} ${cx} ${cy}) translate(${cx} ${cy})`);
             });
+
+        container.append('text')
+            .attr('x', 50)
+            .attr('y', 37.5)
+            .attr('text-anchor', 'start')
+            .attr('fill', 'white')
+            .attr('font-family', 'Open Sans')
+            .style('font-size', '2rem')
+            .text('Saját térfél');
+
+        container.append('text')
+            .attr('x', '1100')
+            .attr('y', 37.5)
+            .attr('text-anchor', 'end')
+            .attr('fill', 'white')
+            .attr('font-family', 'Open Sans')
+            .style('font-size', '2rem')
+            .text('Ellenfél térfele');
     };
 })();
