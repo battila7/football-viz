@@ -3,9 +3,9 @@
         .then(dataset => makePitch(pitchStyle, dataset));
 
     var pitchStyle = {
-        selector: 'body',
-        width: '1150px',
-        height: '780px',
+        selector: '.visualization-container',
+        width: '100%',
+        height: '100%',
         lineColor: '#FFFFFF',
         lineWidth: 5,
         grassColor: "#A1C349"
