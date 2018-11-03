@@ -65,17 +65,14 @@ var makePitch = (function pitchIIFE() {
         }
     };
 
-    const outcomeFillColors = {
-        goal: '#00aa75',
-        saved: '#ffe632',
-        off: '#f05360'   
-    };
+    function blendColor(w1, w2, w3) {
+        const r = (w2 * (254 / 255) + w2 * (223 / 255) + w2 * (0 / 255));
+        const g = (w1 * (0 / 255) + w1 * (86 / 255) + w1 * (59 / 255));
+        const b = (w3 * (237 / 255) + w3 * (41 / 255) + w3 * (57 / 255));
 
-    const outcomeStrokeColors = {
-        goal: '#00563B',
-        saved: '#FEDF00',
-        off: '#ED2939'
-    };
+        return [Math.min(r * 500, 255), Math.min(g * 255, 255), Math.min(b * 144, 255)]
+            .map(x => Math.round(x));
+    }
 
     return function makePitch(styleOptions, dataset) {
         const container = d3.select(styleOptions.selector)
@@ -89,48 +86,35 @@ var makePitch = (function pitchIIFE() {
         drawData(container, styleOptions, dataset);
     };
 
+    function toColorString([r, g, b]) {
+        return `rgb(${r}, ${g}, ${b})`;
+    }
+
     function drawData(container, options, dataset) {
         function fillRegionTopBottom(region, data) {
-            let yOffset = 0;
+            const colorString = toColorString(blendColor(data.off, data.goal, data.saved));
 
-            for (const outcome of ['goal', 'saved', 'off']) {
-                const height = region.height * data[outcome]; 
-
-                container.append('rect')
+            container.append('rect')
                     .attr('x', region.x)
-                    .attr('y', region.y + yOffset)
+                    .attr('y', region.y)
                     .attr('width', region.width)
-                    .attr('height', height)
-                    .style('stroke', outcomeStrokeColors[outcome])
-                    .style('stroke-width', 2)
-                    .style('stroke-opacity', '0.6')
-                    .style('fill', outcomeFillColors[outcome])
-                    .style('fill-opacity', '0.6');
-
-                yOffset += height;
-            }
+                    .attr('height', region.height)
+                    .style('fill', colorString)
+                    .style('fill-opacity', '0.75');
         }
 
         function fillRegionRightLeft(region, data) {
-            let xOffset = 0;
+            const colorString = toColorString(blendColor(data.off, data.goal, data.saved));
 
-            for (const outcome of ['goal', 'saved', 'off']) {
-                const width = region.width * data[outcome]; 
-
-                container.append('rect')
-                    .attr('x', region.x + xOffset)
+            container.append('rect')
+                    .attr('x', region.x)
                     .attr('y', region.y)
-                    .attr('width', width)
+                    .attr('width', region.width)
                     .attr('height', region.height)
-                    .style('stroke', outcomeStrokeColors[outcome])
-                    .style('stroke-width', 2)
-                    .style('stroke-opacity', '0.6')
-                    .style('fill', outcomeFillColors[outcome])
-                    .style('fill-opacity', '0.6');
-
-                xOffset += width;
-            }
+                    .style('fill', colorString)
+                    .style('fill-opacity', '0.75');
         }
+
         for (const key of Object.keys(dataset)) {
             if (regions[key].direction == 'top-bottom') {
                 fillRegionTopBottom(regions[key], dataset[key]);
