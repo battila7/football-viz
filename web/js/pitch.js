@@ -47,7 +47,26 @@ var makePitch = (function pitchIIFE() {
             }
         }
 
-        fillRegionTopBottom(regions['mid16'], dataset['mid16']);
+        function fillRegionRightLeft(region, data) {
+            let xOffset = 0;
+
+            for (const outcome of ['goal', 'saved', 'off']) {
+                const width = region.width * data[outcome]; 
+
+                container.append('rect')
+                    .attr('x', region.x + xOffset)
+                    .attr('y', region.y)
+                    .attr('width', width)
+                    .attr('height', region.height)
+                    .style('stroke-width', 0)
+                    .style('fill', outcomeFillColors[outcome])
+                    .style('fill-opacity', '0.6');
+
+                xOffset += width;
+            }
+        }
+
+        fillRegionRightLeft(regions['mid16'], dataset['mid16']);
     }
 
     function drawPitch(container, options) {
