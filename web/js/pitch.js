@@ -1,4 +1,55 @@
 var makePitch = (function pitchIIFE() {
+    const regions = {
+        mid16: {
+            x: 837.5,
+            y: 188.5,
+            width: 97.5,
+            height: 403,
+            direction: 'top-bottom'
+        }
+    };
+
+    const outcomeFillColors = {
+        'goal': '#00563B',
+        'saved': '#FEDF00',
+        'off': '#ED2939'
+    };
+
+    return function makePitch(styleOptions, dataset) {
+        const container = d3.select(styleOptions.selector)
+            .append('svg')
+            .attr('width', styleOptions.width)
+            .attr('height', styleOptions.height)
+            .attr('viewBox', '0 0 1150 780');
+
+        drawPitch(container, styleOptions);
+
+        drawData(container, styleOptions, dataset);
+    };
+
+    function drawData(container, options, dataset) {
+        function fillRegionTopBottom(region, data) {
+            let yOffset = 0;
+
+            for (const outcome of ['goal', 'saved', 'off']) {
+                const height = region.height * data[outcome]; 
+
+                container.append('rect')
+                    .attr('x', region.x)
+                    .attr('y', region.y + yOffset)
+                    .attr('width', region.width)
+                    .attr('height', height)
+                    .style('stroke-width', 0)
+                    .style('fill', outcomeFillColors[outcome])
+                    .style('fill-opacity', '0.6');
+
+                yOffset += height;
+            }
+        }
+
+        fillRegionTopBottom(regions['mid16'], dataset['mid16']);
+    }
+
     function drawPitch(container, options) {
         function emptyRectangle({ x, y, width, height }) {
             container.append('rect')
@@ -99,15 +150,5 @@ var makePitch = (function pitchIIFE() {
                     .attr('fill', options.lineColor)
                     .attr('transform', `rotate(${alpha} ${cx} ${cy}) translate(${cx} ${cy})`);
             });
-    };
-
-    return function makePitch(styleOptions, dataset) {
-        const container = d3.select(styleOptions.selector)
-            .append('svg')
-            .attr('width', styleOptions.width)
-            .attr('height', styleOptions.height)
-            .attr('viewBox', '0 0 1150 780');
-
-        drawPitch(container, styleOptions);
     };
 })();
