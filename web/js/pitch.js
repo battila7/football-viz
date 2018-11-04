@@ -4,64 +4,55 @@ var makePitch = (function pitchIIFE() {
             x: 50,
             y: 50,
             width: 525,
-            height: 680,
-            direction: 'right-left'
+            height: 680
         },
         farEnemyHalf: {
             x: 575,
             y: 50,
             width: 262.5,
-            height: 680,
-            direction: 'top-bottom'
+            height: 680
         },
         rightFlank: {
             x: 837.5,
             y: 50,
             width: 262.5,
-            height: 138.5,
-            direction: 'right-left'
+            height: 138.5
         },
         mid: {
             x: 837.5,
             y: 188.5,
             width: 97.5,
-            height: 403,
-            direction: 'top-bottom'
+            height: 403
         },
         leftFlank: {
             x: 837.5,
             y: 591.5,
             width: 262.5,
-            height: 138.5,
-            direction: 'right-left'
+            height: 138.5
         },
         rightFlank16: {
             x: 935,
             y: 188.5,
             width: 165,
-            height: 110,
-            direction: 'right-left'
+            height: 110
         },
         mid16: {
             x: 935,
             y: 298.5,
             width: 110,
-            height: 183,
-            direction: 'top-bottom'
+            height: 183
         },
         leftFlank16: {
             x: 935,
             y: 481.5,
             width: 165,
-            height: 110,
-            direction: 'right-left'
+            height: 110
         },
         box: {
             x: 1045,
             y: 298.5,
             width: 55,
-            height: 183,
-            direction: 'top-bottom'
+            height: 183
         }
     };
 
@@ -74,11 +65,14 @@ var makePitch = (function pitchIIFE() {
 
         drawPitch(container, styleOptions);
 
-        drawData(container, styleOptions, dataset);
+        drawData(container, dataset);
     };
 
-    function drawData(container, options, dataset) {
-        function fillRegionTopBottom(region, data) {
+    function drawData(container, dataset) {
+        Object.keys(dataset)
+            .forEach(key => fillRegion(regions[key], dataset[key]));
+
+        function fillRegion(region, data) {
             const colorString = toColorString(dataToColor(data.off, data.goal, data.saved));
 
             container.append('rect')
@@ -88,49 +82,14 @@ var makePitch = (function pitchIIFE() {
                     .attr('height', region.height)
                     .style('fill', colorString)
                     .style('fill-opacity', '0.75');
-        }
-
-        function fillRegionRightLeft(region, data) {
-            const colorString = toColorString(dataToColor(data.off, data.goal, data.saved));
-
-            container.append('rect')
-                    .attr('x', region.x)
-                    .attr('y', region.y)
-                    .attr('width', region.width)
-                    .attr('height', region.height)
-                    .style('fill', colorString)
-                    .style('fill-opacity', '0.75');
-        }
-
-        for (const key of Object.keys(dataset)) {
-            if (regions[key].direction == 'top-bottom') {
-                fillRegionTopBottom(regions[key], dataset[key]);
-            } else {
-                fillRegionRightLeft(regions[key], dataset[key]);
-            }
         }
     }
 
-    function drawPitch(container, options) {
-        function emptyRectangle({ x, y, width, height }) {
-            container.append('rect')
-                .attr('x', x)
-                .attr('y', y)
-                .attr('width', width)
-                .attr('height', height)
-                .style('stroke-width', options.lineWidth)
-                .style('stroke', options.lineColor)
-                .style('fill', 'none');
-        }
-    
-        function filledCircle({ cx, cy, r }) {
-            container.append('circle')
-                .attr('cx', cx)
-                .attr('cy', cy)
-                .attr('r', r)
-                .style('fill', options.lineColor)
-        }
-    
+    /*
+     * Forked from Ian Baldwin's football pitch block:
+     * https://bl.ocks.org/balders93/98ff5f77b82eea28f47c72e1e256286d
+     */
+    function drawPitch(container, options) {    
         // Background Grass    
         container.append('rect')
             .attr('x', 0)
@@ -212,6 +171,7 @@ var makePitch = (function pitchIIFE() {
                     .attr('transform', `rotate(${alpha} ${cx} ${cy}) translate(${cx} ${cy})`);
             });
 
+        // Half Legends
         container.append('text')
             .attr('x', 50)
             .attr('y', 37.5)
@@ -229,5 +189,24 @@ var makePitch = (function pitchIIFE() {
             .attr('font-family', 'Open Sans')
             .style('font-size', '2rem')
             .text('Ellenfél térfele');
+
+        function emptyRectangle({ x, y, width, height }) {
+            container.append('rect')
+                .attr('x', x)
+                .attr('y', y)
+                .attr('width', width)
+                .attr('height', height)
+                .style('stroke-width', options.lineWidth)
+                .style('stroke', options.lineColor)
+                .style('fill', 'none');
+        }
+    
+        function filledCircle({ cx, cy, r }) {
+            container.append('circle')
+                .attr('cx', cx)
+                .attr('cy', cy)
+                .attr('r', r)
+                .style('fill', options.lineColor)
+        }
     };
 })();
