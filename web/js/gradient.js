@@ -28,13 +28,14 @@ var makeGradient = (function gradientIIFE() {
             .attr('y1', '0%')
             .attr('y2', '100%');
 
-        [['ownHalf', '0%'], ['leftFlank', '50%'], ['box', '100%']]
-            .map(([region, percentage]) => [dataset[region], percentage])
-            .forEach(([data, percentage]) => addGradientStop(gradient, data, percentage));
+        [['off', '0%'], ['saved', '50%'], ['goal', '100%']]
+            .forEach(([outcome, percentage]) => addGradientStop(gradient, dataset, outcome, percentage));
     }
 
-    function addGradientStop(gradient, data, percentage) {
-        const colorString = toColorString(dataToColor(data.off, data.goal, data.saved));
+    function addGradientStop(gradient, dataset, outcome, percentage) {
+        const max = dataset.reduce((acc, curr) => acc.shots[outcome] > curr.shots[outcome] ? acc : curr, { shots: { [outcome]: 0 } });
+
+        const colorString = toColorString(dataToColor(max.shots.off, max.shots.goal, max.shots.saved));
 
         gradient.append('stop')
             .attr('offset', percentage)

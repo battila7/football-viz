@@ -1,61 +1,4 @@
 var makePitch = (function pitchIIFE() {
-    const regions = {
-        ownHalf: {
-            x: 50,
-            y: 50,
-            width: 525,
-            height: 680
-        },
-        farEnemyHalf: {
-            x: 575,
-            y: 50,
-            width: 262.5,
-            height: 680
-        },
-        rightFlank: {
-            x: 837.5,
-            y: 50,
-            width: 262.5,
-            height: 138.5
-        },
-        mid: {
-            x: 837.5,
-            y: 188.5,
-            width: 97.5,
-            height: 403
-        },
-        leftFlank: {
-            x: 837.5,
-            y: 591.5,
-            width: 262.5,
-            height: 138.5
-        },
-        rightFlank16: {
-            x: 935,
-            y: 188.5,
-            width: 165,
-            height: 110
-        },
-        mid16: {
-            x: 935,
-            y: 298.5,
-            width: 110,
-            height: 183
-        },
-        leftFlank16: {
-            x: 935,
-            y: 481.5,
-            width: 165,
-            height: 110
-        },
-        box: {
-            x: 1045,
-            y: 298.5,
-            width: 55,
-            height: 183
-        }
-    };
-
     return function makePitch(styleOptions, dataset) {
         const container = d3.select(styleOptions.selector)
             .append('svg')
@@ -69,17 +12,19 @@ var makePitch = (function pitchIIFE() {
     };
 
     function drawData(container, dataset) {
-        Object.keys(dataset)
-            .forEach(key => fillRegion(regions[key], dataset[key]));
+        for (const region of dataset) {
+            const colorString = toColorString(dataToColor(region.shots.off, region.shots.goal, region.shots.saved));
 
-        function fillRegion(region, data) {
-            const colorString = toColorString(dataToColor(data.off, data.goal, data.saved));
+            const xOffset = 50;
+            const yOffset = 50;
+            const widthUnits = 1050 / 120;
+            const heightUnits = 680 / 60;
 
             container.append('rect')
-                    .attr('x', region.x)
-                    .attr('y', region.y)
-                    .attr('width', region.width)
-                    .attr('height', region.height)
+                    .attr('x', region.position.topLeftX * widthUnits + xOffset)
+                    .attr('y', region.position.topLeftY * heightUnits + yOffset)
+                    .attr('width', region.position.width * widthUnits)
+                    .attr('height', region.position.height * heightUnits)
                     .style('fill', colorString)
                     .style('fill-opacity', '0.75');
         }
