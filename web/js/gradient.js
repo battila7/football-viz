@@ -28,7 +28,7 @@ var makeGradient = (function gradientIIFE() {
             .attr('y1', '0%')
             .attr('y2', '100%');
 
-        [['0%', 'rgb(0, 145, 0)'], ['50%', 'rgb(0, 0, 189)'], ['100%', 'rgb(255, 0, 0)']]
+        [['0%', 'rgb(0, 200, 255)'], ['50%', 'rgb(0, 0, 189)'], ['100%', 'rgb(255, 0, 0)']]
             .forEach(([percentage, colorString]) => addGradientStop(gradient, percentage, colorString));
     }
 
