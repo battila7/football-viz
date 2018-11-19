@@ -21,7 +21,7 @@
     };
 
     function downloadDataset() {
-        return fetch('data/out-3x3.json')
+        return fetch('data/single-shots.json')
             .then(response => response.json())
     }
 })();

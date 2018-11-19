@@ -28,15 +28,11 @@ var makeGradient = (function gradientIIFE() {
             .attr('y1', '0%')
             .attr('y2', '100%');
 
-        [['off', '0%'], ['saved', '50%'], ['goal', '100%']]
-            .forEach(([outcome, percentage]) => addGradientStop(gradient, dataset, outcome, percentage));
+        [['0%', 'rgb(0, 145, 0)'], ['50%', 'rgb(0, 0, 189)'], ['100%', 'rgb(255, 0, 0)']]
+            .forEach(([percentage, colorString]) => addGradientStop(gradient, percentage, colorString));
     }
 
-    function addGradientStop(gradient, dataset, outcome, percentage) {
-        const max = dataset.reduce((acc, curr) => acc.shots[outcome] > curr.shots[outcome] ? acc : curr, { shots: { [outcome]: 0 } });
-
-        const colorString = toColorString(dataToColor(max.shots.off, max.shots.goal, max.shots.saved));
-
+    function addGradientStop(gradient, percentage, colorString) {
         gradient.append('stop')
             .attr('offset', percentage)
             .attr('stop-color', colorString)

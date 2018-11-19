@@ -12,21 +12,26 @@ var makePitch = (function pitchIIFE() {
     };
 
     function drawData(container, dataset) {
-        for (const region of dataset) {
-            const colorString = toColorString(dataToColor(region.shots.off, region.shots.goal, region.shots.saved));
+        const colors = {
+            'off': 'rgb(0, 145, 0)', 
+            'saved': 'rgb(0, 0, 189)',
+            'goal': 'rgb(255, 0, 0)'
+        };
 
+        for (const shot of dataset) {
+            const colorString = colors[shot.outcome];
             const xOffset = 50;
             const yOffset = 50;
             const widthUnits = 1050 / 120;
-            const heightUnits = 680 / 60;
+            const heightUnits = 680 / 80;
 
-            container.append('rect')
-                    .attr('x', region.position.topLeftX * widthUnits + xOffset)
-                    .attr('y', region.position.topLeftY * heightUnits + yOffset)
-                    .attr('width', region.position.width * widthUnits)
-                    .attr('height', region.position.height * heightUnits)
-                    .style('fill', colorString)
-                    .style('fill-opacity', '0.75');
+            container.append('circle')
+                .attr('cx', shot.startLocation[0] * widthUnits + xOffset)
+                .attr('cy', shot.startLocation[1] * heightUnits + yOffset)
+                .attr('r', 3)
+                .style('stroke-width', 0)
+                .style('fill', colorString)
+                .style('fill-opacity', '0.75');
         }
     }
 
