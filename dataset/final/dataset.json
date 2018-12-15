@@ -1,0 +1,1990 @@
+[
+  {
+    "topLeft": [
+      76,
+      38
+    ],
+    "bottomRight": [
+      78,
+      40
+    ],
+    "shots": 2,
+    "goals": 1,
+    "relativeGoalRatio": 0.5,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      86,
+      34
+    ],
+    "bottomRight": [
+      88,
+      36
+    ],
+    "shots": 7,
+    "goals": 2,
+    "relativeGoalRatio": 0.2857142857142857,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      86,
+      38
+    ],
+    "bottomRight": [
+      88,
+      40
+    ],
+    "shots": 5,
+    "goals": 1,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      86,
+      46
+    ],
+    "bottomRight": [
+      88,
+      48
+    ],
+    "shots": 4,
+    "goals": 1,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      88,
+      36
+    ],
+    "bottomRight": [
+      90,
+      38
+    ],
+    "shots": 5,
+    "goals": 1,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      88,
+      48
+    ],
+    "bottomRight": [
+      90,
+      50
+    ],
+    "shots": 3,
+    "goals": 1,
+    "relativeGoalRatio": 0.3333333333333333,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      90,
+      28
+    ],
+    "bottomRight": [
+      92,
+      30
+    ],
+    "shots": 6,
+    "goals": 1,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      92,
+      32
+    ],
+    "bottomRight": [
+      94,
+      34
+    ],
+    "shots": 13,
+    "goals": 2,
+    "relativeGoalRatio": 0.15384615384615385,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      92,
+      38
+    ],
+    "bottomRight": [
+      94,
+      40
+    ],
+    "shots": 17,
+    "goals": 1,
+    "relativeGoalRatio": 0.058823529411764705,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      92,
+      44
+    ],
+    "bottomRight": [
+      94,
+      46
+    ],
+    "shots": 5,
+    "goals": 2,
+    "relativeGoalRatio": 0.4,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      92,
+      56
+    ],
+    "bottomRight": [
+      94,
+      58
+    ],
+    "shots": 4,
+    "goals": 1,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      92,
+      58
+    ],
+    "bottomRight": [
+      94,
+      60
+    ],
+    "shots": 5,
+    "goals": 1,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      92,
+      60
+    ],
+    "bottomRight": [
+      94,
+      62
+    ],
+    "shots": 1,
+    "goals": 1,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      94,
+      20
+    ],
+    "bottomRight": [
+      96,
+      22
+    ],
+    "shots": 5,
+    "goals": 1,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      94,
+      30
+    ],
+    "bottomRight": [
+      96,
+      32
+    ],
+    "shots": 17,
+    "goals": 1,
+    "relativeGoalRatio": 0.058823529411764705,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      94,
+      42
+    ],
+    "bottomRight": [
+      96,
+      44
+    ],
+    "shots": 10,
+    "goals": 2,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      96,
+      20
+    ],
+    "bottomRight": [
+      98,
+      22
+    ],
+    "shots": 6,
+    "goals": 1,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      96,
+      28
+    ],
+    "bottomRight": [
+      98,
+      30
+    ],
+    "shots": 14,
+    "goals": 1,
+    "relativeGoalRatio": 0.07142857142857142,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      96,
+      32
+    ],
+    "bottomRight": [
+      98,
+      34
+    ],
+    "shots": 9,
+    "goals": 1,
+    "relativeGoalRatio": 0.1111111111111111,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      96,
+      40
+    ],
+    "bottomRight": [
+      98,
+      42
+    ],
+    "shots": 12,
+    "goals": 1,
+    "relativeGoalRatio": 0.08333333333333333,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      96,
+      44
+    ],
+    "bottomRight": [
+      98,
+      46
+    ],
+    "shots": 6,
+    "goals": 1,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      96,
+      52
+    ],
+    "bottomRight": [
+      98,
+      54
+    ],
+    "shots": 15,
+    "goals": 2,
+    "relativeGoalRatio": 0.13333333333333333,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      98,
+      20
+    ],
+    "bottomRight": [
+      100,
+      22
+    ],
+    "shots": 8,
+    "goals": 1,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      98,
+      22
+    ],
+    "bottomRight": [
+      100,
+      24
+    ],
+    "shots": 8,
+    "goals": 1,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      98,
+      36
+    ],
+    "bottomRight": [
+      100,
+      38
+    ],
+    "shots": 6,
+    "goals": 1,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      98,
+      50
+    ],
+    "bottomRight": [
+      100,
+      52
+    ],
+    "shots": 19,
+    "goals": 3,
+    "relativeGoalRatio": 0.15789473684210525,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      98,
+      54
+    ],
+    "bottomRight": [
+      100,
+      56
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      98,
+      56
+    ],
+    "bottomRight": [
+      100,
+      58
+    ],
+    "shots": 7,
+    "goals": 2,
+    "relativeGoalRatio": 0.2857142857142857,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      98,
+      58
+    ],
+    "bottomRight": [
+      100,
+      60
+    ],
+    "shots": 11,
+    "goals": 1,
+    "relativeGoalRatio": 0.09090909090909091,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      100,
+      34
+    ],
+    "bottomRight": [
+      102,
+      36
+    ],
+    "shots": 12,
+    "goals": 3,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      100,
+      38
+    ],
+    "bottomRight": [
+      102,
+      40
+    ],
+    "shots": 14,
+    "goals": 3,
+    "relativeGoalRatio": 0.21428571428571427,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      100,
+      40
+    ],
+    "bottomRight": [
+      102,
+      42
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      100,
+      42
+    ],
+    "bottomRight": [
+      102,
+      44
+    ],
+    "shots": 9,
+    "goals": 1,
+    "relativeGoalRatio": 0.1111111111111111,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      100,
+      44
+    ],
+    "bottomRight": [
+      102,
+      46
+    ],
+    "shots": 14,
+    "goals": 1,
+    "relativeGoalRatio": 0.07142857142857142,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      100,
+      46
+    ],
+    "bottomRight": [
+      102,
+      48
+    ],
+    "shots": 7,
+    "goals": 1,
+    "relativeGoalRatio": 0.14285714285714285,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      100,
+      52
+    ],
+    "bottomRight": [
+      102,
+      54
+    ],
+    "shots": 17,
+    "goals": 3,
+    "relativeGoalRatio": 0.17647058823529413,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      100,
+      56
+    ],
+    "bottomRight": [
+      102,
+      58
+    ],
+    "shots": 11,
+    "goals": 1,
+    "relativeGoalRatio": 0.09090909090909091,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      22
+    ],
+    "bottomRight": [
+      104,
+      24
+    ],
+    "shots": 9,
+    "goals": 1,
+    "relativeGoalRatio": 0.1111111111111111,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      24
+    ],
+    "bottomRight": [
+      104,
+      26
+    ],
+    "shots": 6,
+    "goals": 2,
+    "relativeGoalRatio": 0.3333333333333333,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      102,
+      28
+    ],
+    "bottomRight": [
+      104,
+      30
+    ],
+    "shots": 12,
+    "goals": 1,
+    "relativeGoalRatio": 0.08333333333333333,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      32
+    ],
+    "bottomRight": [
+      104,
+      34
+    ],
+    "shots": 18,
+    "goals": 3,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      102,
+      34
+    ],
+    "bottomRight": [
+      104,
+      36
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      36
+    ],
+    "bottomRight": [
+      104,
+      38
+    ],
+    "shots": 18,
+    "goals": 1,
+    "relativeGoalRatio": 0.05555555555555555,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      38
+    ],
+    "bottomRight": [
+      104,
+      40
+    ],
+    "shots": 19,
+    "goals": 1,
+    "relativeGoalRatio": 0.05263157894736842,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      42
+    ],
+    "bottomRight": [
+      104,
+      44
+    ],
+    "shots": 7,
+    "goals": 1,
+    "relativeGoalRatio": 0.14285714285714285,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      46
+    ],
+    "bottomRight": [
+      104,
+      48
+    ],
+    "shots": 16,
+    "goals": 1,
+    "relativeGoalRatio": 0.0625,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      102,
+      48
+    ],
+    "bottomRight": [
+      104,
+      50
+    ],
+    "shots": 10,
+    "goals": 2,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      102,
+      52
+    ],
+    "bottomRight": [
+      104,
+      54
+    ],
+    "shots": 11,
+    "goals": 2,
+    "relativeGoalRatio": 0.18181818181818182,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      104,
+      22
+    ],
+    "bottomRight": [
+      106,
+      24
+    ],
+    "shots": 12,
+    "goals": 1,
+    "relativeGoalRatio": 0.08333333333333333,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      104,
+      30
+    ],
+    "bottomRight": [
+      106,
+      32
+    ],
+    "shots": 13,
+    "goals": 3,
+    "relativeGoalRatio": 0.23076923076923078,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      104,
+      32
+    ],
+    "bottomRight": [
+      106,
+      34
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      104,
+      34
+    ],
+    "bottomRight": [
+      106,
+      36
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      104,
+      36
+    ],
+    "bottomRight": [
+      106,
+      38
+    ],
+    "shots": 10,
+    "goals": 3,
+    "relativeGoalRatio": 0.3,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      104,
+      38
+    ],
+    "bottomRight": [
+      106,
+      40
+    ],
+    "shots": 23,
+    "goals": 2,
+    "relativeGoalRatio": 0.08695652173913043,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      104,
+      44
+    ],
+    "bottomRight": [
+      106,
+      46
+    ],
+    "shots": 18,
+    "goals": 4,
+    "relativeGoalRatio": 0.2222222222222222,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      104,
+      46
+    ],
+    "bottomRight": [
+      106,
+      48
+    ],
+    "shots": 15,
+    "goals": 1,
+    "relativeGoalRatio": 0.06666666666666667,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      104,
+      48
+    ],
+    "bottomRight": [
+      106,
+      50
+    ],
+    "shots": 15,
+    "goals": 3,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      104,
+      52
+    ],
+    "bottomRight": [
+      106,
+      54
+    ],
+    "shots": 14,
+    "goals": 1,
+    "relativeGoalRatio": 0.07142857142857142,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      104,
+      58
+    ],
+    "bottomRight": [
+      106,
+      60
+    ],
+    "shots": 8,
+    "goals": 2,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      104,
+      68
+    ],
+    "bottomRight": [
+      106,
+      70
+    ],
+    "shots": 2,
+    "goals": 1,
+    "relativeGoalRatio": 0.5,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      106,
+      22
+    ],
+    "bottomRight": [
+      108,
+      24
+    ],
+    "shots": 8,
+    "goals": 1,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      106,
+      26
+    ],
+    "bottomRight": [
+      108,
+      28
+    ],
+    "shots": 17,
+    "goals": 2,
+    "relativeGoalRatio": 0.11764705882352941,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      106,
+      28
+    ],
+    "bottomRight": [
+      108,
+      30
+    ],
+    "shots": 19,
+    "goals": 4,
+    "relativeGoalRatio": 0.21052631578947367,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      106,
+      30
+    ],
+    "bottomRight": [
+      108,
+      32
+    ],
+    "shots": 25,
+    "goals": 1,
+    "relativeGoalRatio": 0.04,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      106,
+      32
+    ],
+    "bottomRight": [
+      108,
+      34
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      106,
+      34
+    ],
+    "bottomRight": [
+      108,
+      36
+    ],
+    "shots": 23,
+    "goals": 3,
+    "relativeGoalRatio": 0.13043478260869565,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      106,
+      36
+    ],
+    "bottomRight": [
+      108,
+      38
+    ],
+    "shots": 18,
+    "goals": 4,
+    "relativeGoalRatio": 0.2222222222222222,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      106,
+      38
+    ],
+    "bottomRight": [
+      108,
+      40
+    ],
+    "shots": 54,
+    "goals": 20,
+    "relativeGoalRatio": 0.37037037037037035,
+    "absoluteGoalRatio": 0.25316455696202533
+  },
+  {
+    "topLeft": [
+      106,
+      40
+    ],
+    "bottomRight": [
+      108,
+      42
+    ],
+    "shots": 17,
+    "goals": 1,
+    "relativeGoalRatio": 0.058823529411764705,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      106,
+      42
+    ],
+    "bottomRight": [
+      108,
+      44
+    ],
+    "shots": 24,
+    "goals": 3,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      106,
+      44
+    ],
+    "bottomRight": [
+      108,
+      46
+    ],
+    "shots": 22,
+    "goals": 4,
+    "relativeGoalRatio": 0.18181818181818182,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      106,
+      46
+    ],
+    "bottomRight": [
+      108,
+      48
+    ],
+    "shots": 22,
+    "goals": 2,
+    "relativeGoalRatio": 0.09090909090909091,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      106,
+      50
+    ],
+    "bottomRight": [
+      108,
+      52
+    ],
+    "shots": 21,
+    "goals": 4,
+    "relativeGoalRatio": 0.19047619047619047,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      106,
+      52
+    ],
+    "bottomRight": [
+      108,
+      54
+    ],
+    "shots": 12,
+    "goals": 2,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      108,
+      26
+    ],
+    "bottomRight": [
+      110,
+      28
+    ],
+    "shots": 12,
+    "goals": 1,
+    "relativeGoalRatio": 0.08333333333333333,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      28
+    ],
+    "bottomRight": [
+      110,
+      30
+    ],
+    "shots": 17,
+    "goals": 2,
+    "relativeGoalRatio": 0.11764705882352941,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      108,
+      30
+    ],
+    "bottomRight": [
+      110,
+      32
+    ],
+    "shots": 25,
+    "goals": 6,
+    "relativeGoalRatio": 0.24,
+    "absoluteGoalRatio": 0.0759493670886076
+  },
+  {
+    "topLeft": [
+      108,
+      32
+    ],
+    "bottomRight": [
+      110,
+      34
+    ],
+    "shots": 24,
+    "goals": 3,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      108,
+      34
+    ],
+    "bottomRight": [
+      110,
+      36
+    ],
+    "shots": 22,
+    "goals": 1,
+    "relativeGoalRatio": 0.045454545454545456,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      36
+    ],
+    "bottomRight": [
+      110,
+      38
+    ],
+    "shots": 26,
+    "goals": 3,
+    "relativeGoalRatio": 0.11538461538461539,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      108,
+      38
+    ],
+    "bottomRight": [
+      110,
+      40
+    ],
+    "shots": 17,
+    "goals": 2,
+    "relativeGoalRatio": 0.11764705882352941,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      108,
+      40
+    ],
+    "bottomRight": [
+      110,
+      42
+    ],
+    "shots": 79,
+    "goals": 41,
+    "relativeGoalRatio": 0.5189873417721519,
+    "absoluteGoalRatio": 0.5189873417721519
+  },
+  {
+    "topLeft": [
+      108,
+      42
+    ],
+    "bottomRight": [
+      110,
+      44
+    ],
+    "shots": 28,
+    "goals": 3,
+    "relativeGoalRatio": 0.10714285714285714,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      108,
+      44
+    ],
+    "bottomRight": [
+      110,
+      46
+    ],
+    "shots": 27,
+    "goals": 1,
+    "relativeGoalRatio": 0.037037037037037035,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      46
+    ],
+    "bottomRight": [
+      110,
+      48
+    ],
+    "shots": 19,
+    "goals": 1,
+    "relativeGoalRatio": 0.05263157894736842,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      48
+    ],
+    "bottomRight": [
+      110,
+      50
+    ],
+    "shots": 15,
+    "goals": 2,
+    "relativeGoalRatio": 0.13333333333333333,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      108,
+      50
+    ],
+    "bottomRight": [
+      110,
+      52
+    ],
+    "shots": 17,
+    "goals": 1,
+    "relativeGoalRatio": 0.058823529411764705,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      52
+    ],
+    "bottomRight": [
+      110,
+      54
+    ],
+    "shots": 14,
+    "goals": 1,
+    "relativeGoalRatio": 0.07142857142857142,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      108,
+      54
+    ],
+    "bottomRight": [
+      110,
+      56
+    ],
+    "shots": 8,
+    "goals": 1,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      110,
+      18
+    ],
+    "bottomRight": [
+      112,
+      20
+    ],
+    "shots": 1,
+    "goals": 1,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      110,
+      26
+    ],
+    "bottomRight": [
+      112,
+      28
+    ],
+    "shots": 13,
+    "goals": 1,
+    "relativeGoalRatio": 0.07692307692307693,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      110,
+      28
+    ],
+    "bottomRight": [
+      112,
+      30
+    ],
+    "shots": 28,
+    "goals": 2,
+    "relativeGoalRatio": 0.07142857142857142,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      110,
+      30
+    ],
+    "bottomRight": [
+      112,
+      32
+    ],
+    "shots": 15,
+    "goals": 4,
+    "relativeGoalRatio": 0.26666666666666666,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      110,
+      32
+    ],
+    "bottomRight": [
+      112,
+      34
+    ],
+    "shots": 22,
+    "goals": 2,
+    "relativeGoalRatio": 0.09090909090909091,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      110,
+      34
+    ],
+    "bottomRight": [
+      112,
+      36
+    ],
+    "shots": 23,
+    "goals": 7,
+    "relativeGoalRatio": 0.30434782608695654,
+    "absoluteGoalRatio": 0.08860759493670886
+  },
+  {
+    "topLeft": [
+      110,
+      36
+    ],
+    "bottomRight": [
+      112,
+      38
+    ],
+    "shots": 35,
+    "goals": 4,
+    "relativeGoalRatio": 0.11428571428571428,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      110,
+      38
+    ],
+    "bottomRight": [
+      112,
+      40
+    ],
+    "shots": 41,
+    "goals": 2,
+    "relativeGoalRatio": 0.04878048780487805,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      110,
+      40
+    ],
+    "bottomRight": [
+      112,
+      42
+    ],
+    "shots": 46,
+    "goals": 9,
+    "relativeGoalRatio": 0.1956521739130435,
+    "absoluteGoalRatio": 0.11392405063291139
+  },
+  {
+    "topLeft": [
+      110,
+      42
+    ],
+    "bottomRight": [
+      112,
+      44
+    ],
+    "shots": 42,
+    "goals": 6,
+    "relativeGoalRatio": 0.14285714285714285,
+    "absoluteGoalRatio": 0.0759493670886076
+  },
+  {
+    "topLeft": [
+      110,
+      44
+    ],
+    "bottomRight": [
+      112,
+      46
+    ],
+    "shots": 30,
+    "goals": 4,
+    "relativeGoalRatio": 0.13333333333333333,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      110,
+      46
+    ],
+    "bottomRight": [
+      112,
+      48
+    ],
+    "shots": 20,
+    "goals": 4,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      110,
+      48
+    ],
+    "bottomRight": [
+      112,
+      50
+    ],
+    "shots": 24,
+    "goals": 1,
+    "relativeGoalRatio": 0.041666666666666664,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      110,
+      52
+    ],
+    "bottomRight": [
+      112,
+      54
+    ],
+    "shots": 11,
+    "goals": 1,
+    "relativeGoalRatio": 0.09090909090909091,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      110,
+      66
+    ],
+    "bottomRight": [
+      112,
+      68
+    ],
+    "shots": 1,
+    "goals": 1,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      112,
+      28
+    ],
+    "bottomRight": [
+      114,
+      30
+    ],
+    "shots": 10,
+    "goals": 3,
+    "relativeGoalRatio": 0.3,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      112,
+      30
+    ],
+    "bottomRight": [
+      114,
+      32
+    ],
+    "shots": 10,
+    "goals": 1,
+    "relativeGoalRatio": 0.1,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      112,
+      32
+    ],
+    "bottomRight": [
+      114,
+      34
+    ],
+    "shots": 29,
+    "goals": 3,
+    "relativeGoalRatio": 0.10344827586206896,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      112,
+      34
+    ],
+    "bottomRight": [
+      114,
+      36
+    ],
+    "shots": 20,
+    "goals": 2,
+    "relativeGoalRatio": 0.1,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      112,
+      36
+    ],
+    "bottomRight": [
+      114,
+      38
+    ],
+    "shots": 36,
+    "goals": 12,
+    "relativeGoalRatio": 0.3333333333333333,
+    "absoluteGoalRatio": 0.1518987341772152
+  },
+  {
+    "topLeft": [
+      112,
+      38
+    ],
+    "bottomRight": [
+      114,
+      40
+    ],
+    "shots": 45,
+    "goals": 9,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.11392405063291139
+  },
+  {
+    "topLeft": [
+      112,
+      40
+    ],
+    "bottomRight": [
+      114,
+      42
+    ],
+    "shots": 32,
+    "goals": 7,
+    "relativeGoalRatio": 0.21875,
+    "absoluteGoalRatio": 0.08860759493670886
+  },
+  {
+    "topLeft": [
+      112,
+      42
+    ],
+    "bottomRight": [
+      114,
+      44
+    ],
+    "shots": 42,
+    "goals": 9,
+    "relativeGoalRatio": 0.21428571428571427,
+    "absoluteGoalRatio": 0.11392405063291139
+  },
+  {
+    "topLeft": [
+      112,
+      44
+    ],
+    "bottomRight": [
+      114,
+      46
+    ],
+    "shots": 24,
+    "goals": 5,
+    "relativeGoalRatio": 0.20833333333333334,
+    "absoluteGoalRatio": 0.06329113924050633
+  },
+  {
+    "topLeft": [
+      112,
+      46
+    ],
+    "bottomRight": [
+      114,
+      48
+    ],
+    "shots": 19,
+    "goals": 1,
+    "relativeGoalRatio": 0.05263157894736842,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      112,
+      48
+    ],
+    "bottomRight": [
+      114,
+      50
+    ],
+    "shots": 12,
+    "goals": 2,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      112,
+      50
+    ],
+    "bottomRight": [
+      114,
+      52
+    ],
+    "shots": 11,
+    "goals": 2,
+    "relativeGoalRatio": 0.18181818181818182,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      112,
+      52
+    ],
+    "bottomRight": [
+      114,
+      54
+    ],
+    "shots": 15,
+    "goals": 1,
+    "relativeGoalRatio": 0.06666666666666667,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      114,
+      22
+    ],
+    "bottomRight": [
+      116,
+      24
+    ],
+    "shots": 2,
+    "goals": 1,
+    "relativeGoalRatio": 0.5,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      114,
+      30
+    ],
+    "bottomRight": [
+      116,
+      32
+    ],
+    "shots": 17,
+    "goals": 4,
+    "relativeGoalRatio": 0.23529411764705882,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      114,
+      32
+    ],
+    "bottomRight": [
+      116,
+      34
+    ],
+    "shots": 18,
+    "goals": 6,
+    "relativeGoalRatio": 0.3333333333333333,
+    "absoluteGoalRatio": 0.0759493670886076
+  },
+  {
+    "topLeft": [
+      114,
+      34
+    ],
+    "bottomRight": [
+      116,
+      36
+    ],
+    "shots": 16,
+    "goals": 2,
+    "relativeGoalRatio": 0.125,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      114,
+      36
+    ],
+    "bottomRight": [
+      116,
+      38
+    ],
+    "shots": 21,
+    "goals": 4,
+    "relativeGoalRatio": 0.19047619047619047,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      114,
+      38
+    ],
+    "bottomRight": [
+      116,
+      40
+    ],
+    "shots": 21,
+    "goals": 3,
+    "relativeGoalRatio": 0.14285714285714285,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      114,
+      40
+    ],
+    "bottomRight": [
+      116,
+      42
+    ],
+    "shots": 20,
+    "goals": 12,
+    "relativeGoalRatio": 0.6,
+    "absoluteGoalRatio": 0.1518987341772152
+  },
+  {
+    "topLeft": [
+      114,
+      42
+    ],
+    "bottomRight": [
+      116,
+      44
+    ],
+    "shots": 20,
+    "goals": 5,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.06329113924050633
+  },
+  {
+    "topLeft": [
+      114,
+      44
+    ],
+    "bottomRight": [
+      116,
+      46
+    ],
+    "shots": 19,
+    "goals": 5,
+    "relativeGoalRatio": 0.2631578947368421,
+    "absoluteGoalRatio": 0.06329113924050633
+  },
+  {
+    "topLeft": [
+      114,
+      46
+    ],
+    "bottomRight": [
+      116,
+      48
+    ],
+    "shots": 14,
+    "goals": 3,
+    "relativeGoalRatio": 0.21428571428571427,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      114,
+      50
+    ],
+    "bottomRight": [
+      116,
+      52
+    ],
+    "shots": 7,
+    "goals": 1,
+    "relativeGoalRatio": 0.14285714285714285,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      114,
+      52
+    ],
+    "bottomRight": [
+      116,
+      54
+    ],
+    "shots": 7,
+    "goals": 2,
+    "relativeGoalRatio": 0.2857142857142857,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      116,
+      28
+    ],
+    "bottomRight": [
+      118,
+      30
+    ],
+    "shots": 9,
+    "goals": 1,
+    "relativeGoalRatio": 0.1111111111111111,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      116,
+      32
+    ],
+    "bottomRight": [
+      118,
+      34
+    ],
+    "shots": 9,
+    "goals": 2,
+    "relativeGoalRatio": 0.2222222222222222,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      116,
+      34
+    ],
+    "bottomRight": [
+      118,
+      36
+    ],
+    "shots": 5,
+    "goals": 1,
+    "relativeGoalRatio": 0.2,
+    "absoluteGoalRatio": 0.012658227848101266
+  },
+  {
+    "topLeft": [
+      116,
+      36
+    ],
+    "bottomRight": [
+      118,
+      38
+    ],
+    "shots": 8,
+    "goals": 2,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      116,
+      38
+    ],
+    "bottomRight": [
+      118,
+      40
+    ],
+    "shots": 19,
+    "goals": 5,
+    "relativeGoalRatio": 0.2631578947368421,
+    "absoluteGoalRatio": 0.06329113924050633
+  },
+  {
+    "topLeft": [
+      116,
+      40
+    ],
+    "bottomRight": [
+      118,
+      42
+    ],
+    "shots": 14,
+    "goals": 6,
+    "relativeGoalRatio": 0.42857142857142855,
+    "absoluteGoalRatio": 0.0759493670886076
+  },
+  {
+    "topLeft": [
+      116,
+      42
+    ],
+    "bottomRight": [
+      118,
+      44
+    ],
+    "shots": 3,
+    "goals": 3,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      116,
+      44
+    ],
+    "bottomRight": [
+      118,
+      46
+    ],
+    "shots": 8,
+    "goals": 2,
+    "relativeGoalRatio": 0.25,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      116,
+      46
+    ],
+    "bottomRight": [
+      118,
+      48
+    ],
+    "shots": 12,
+    "goals": 2,
+    "relativeGoalRatio": 0.16666666666666666,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      118,
+      38
+    ],
+    "bottomRight": [
+      120,
+      40
+    ],
+    "shots": 2,
+    "goals": 2,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.02531645569620253
+  },
+  {
+    "topLeft": [
+      118,
+      40
+    ],
+    "bottomRight": [
+      120,
+      42
+    ],
+    "shots": 5,
+    "goals": 4,
+    "relativeGoalRatio": 0.8,
+    "absoluteGoalRatio": 0.05063291139240506
+  },
+  {
+    "topLeft": [
+      118,
+      42
+    ],
+    "bottomRight": [
+      120,
+      44
+    ],
+    "shots": 3,
+    "goals": 3,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.0379746835443038
+  },
+  {
+    "topLeft": [
+      118,
+      54
+    ],
+    "bottomRight": [
+      120,
+      56
+    ],
+    "shots": 1,
+    "goals": 1,
+    "relativeGoalRatio": 1,
+    "absoluteGoalRatio": 0.012658227848101266
+  }
+]
