@@ -2,16 +2,16 @@
     downloadDataset()
         .then(dataset => {
             makePitch(pitchStyle, dataset);
-            makeGradient(gradientStyle, dataset);
+            //makeGradient(gradientStyle, dataset);
         });
 
     var pitchStyle = {
         selector: '.visualization-container',
         width: '100%',
         height: '100%',
-        lineColor: '#FFFFFF',
-        lineWidth: 5,
-        grassColor: '#3bba21'
+        lineColor: '#e6cd63',
+        lineWidth: 0.2,
+        grassColor: '#000000'
     };
 
     var gradientStyle = {
@@ -21,7 +21,7 @@
     };
 
     function downloadDataset() {
-        return fetch('data/single-shots.json')
+        return fetch('data/out-final.json')
             .then(response => response.json())
     }
 })();

@@ -2,13 +2,13 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     overflow-y: hidden;
 }
 
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: #ffffff;
 }
 
 .container {
@@ -34,6 +34,7 @@ body {
 .title {
     font-size: 3rem;
     font-variant: small-caps;
+    color: #dc005d;
 }
 
 .title > span:nth-child(1) {
@@ -44,9 +45,59 @@ body {
     font-weight:300;
 }
 
+.select-a-circle {
+    padding: 1rem 0;
+    font-size:2rem;
+    color: #dc005d;
+}
+
+.circle-data {
+    color: #e6cd63;
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.legend-sep {
+    width: 2rem;
+}
+
+.legend-title {
+    padding: 1rem 0;
+    font-size:2rem;
+    color: #dc005d;
+}
+
+#circle-size-legend {
+    padding-bottom: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#circle-color-legend {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#circle-size-legend div {
+    display: inline-block;
+}
+
+#circle-color-legend div {
+    display: inline-block;
+}
+
+#small-circle-legend, #big-circle-legend, #blue-circle-legend, #purple-circle-legend {
+    width: 1rem;
+    text-align: center;
+}
+
+.circle-data div {
+    padding-bottom: 0.2rem;
+}
+
 .fun-time {
+    padding-top: 1rem;
     font-size: 1.15rem;
     width:90%;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .logo-container {
@@ -65,7 +116,7 @@ body {
 
 .smallprint > a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .content-bottom {
@@ -73,8 +124,19 @@ body {
 }
 
 .middle-panel {
-    flex: 3;
-    height:100%;
+    background-color: #000000;
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.right-panel {
+    flex: 4;
+}
+
+.visualization-panel {
+    flex: 1;
 }
 
 .gradient-container {
@@ -106,24 +168,9 @@ body {
     padding-right: 0.25rem;
 }
 
-.legend-title {
-    font-variant: small-caps;
-}
-
 .legend-description {
     font-weight: 300;
     font-size: 1rem;
     width: 100%;
 }
 
-.right-panel {
-    background-color: #3bba21;
-    flex: 9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.visualization-panel {
-    flex: 1;
-}
