@@ -48,7 +48,7 @@ var makePitch = (function pitchIIFE() {
             .attr('cy', 5)
             .attr('r', 2.5)
             .style('stroke-width', 0)
-            .style('fill', interpolateColor(0));
+            .style('fill', '#ffffff');
 
         const bigCircle = d3.select("#big-circle-legend")
             .append('svg')
@@ -61,7 +61,7 @@ var makePitch = (function pitchIIFE() {
             .attr('cy', 5)
             .attr('r', 5)
             .style('stroke-width', 0)
-            .style('fill', interpolateColor(0));
+            .style('fill', '#ffffff');
 
         const blueCircle = d3.select("#blue-circle-legend")
             .append('svg')

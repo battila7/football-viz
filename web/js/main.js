@@ -1,8 +1,6 @@
 (function mainIIFE() {
     downloadDataset()
-        .then(dataset => {
-            makePitch(pitchStyle, dataset);
-        });
+        .then(dataset => makePitch(pitchStyle, dataset));
 
     var pitchStyle = {
         selector: '.visualization-container',
