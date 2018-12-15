@@ -2,7 +2,6 @@
     downloadDataset()
         .then(dataset => {
             makePitch(pitchStyle, dataset);
-            //makeGradient(gradientStyle, dataset);
         });
 
     var pitchStyle = {
@@ -14,14 +13,8 @@
         grassColor: '#000000'
     };
 
-    var gradientStyle = {
-        selector: '.gradient-panel',
-        width: '100%',
-        height: '100%',
-    };
-
     function downloadDataset() {
-        return fetch('data/out-final.json')
+        return fetch('data/dataset.json')
             .then(response => response.json())
     }
 })();

@@ -33,12 +33,6 @@ var makePitch = (function pitchIIFE() {
     };
 
     function drawData(container, dataset) {
-        const colors = {
-            'off': 'rgb(0, 200, 255)', 
-            'saved': 'rgb(0, 0, 189)',
-            'goal': 'rgb(255, 0, 0)'
-        };
-
         const g = dataset.map(p => p.goals);
         g.sort((a, b) => a - b);
         g.pop();
@@ -107,8 +101,6 @@ var makePitch = (function pitchIIFE() {
         }
 
         for (const place of dataset) {
-            const colorString = '#dc005d';
-
             const cx = Math.abs(place.topLeft[0] + 1 - 120);
             const cy = place.topLeft[1] + 1;
 
@@ -126,15 +118,6 @@ var makePitch = (function pitchIIFE() {
 
             place.r = r;
             place.cl = cl;
-
-           /*let cl;
-           if (place.goals > g[g.length - 1]) {
-               cl = interpolateColor(1);
-           } else {
-               cl = interpolateColor(place.gr);
-           }
-
-           const r = interpolateRadius(place.relativeGoalRatio);*/
 
             container.append('circle')
                 .attr('cx', actualcx)
@@ -205,23 +188,23 @@ var makePitch = (function pitchIIFE() {
         [[10, 10]]
             .forEach(([x, y]) => emptyRectangle({ x, y, width: 80, height: 60 }));
 
-        // Penalty Area Rectangles
+        // Penalty Area Rectangle
         [[28, 10]]
             .forEach(([x, y]) => emptyRectangle({ x, y, width: 44, height: 18 }));
     
-        // Six Yard Rectangles
+        // Six Yard Rectangle
         [[40, 10]]
             .forEach(([x, y]) => emptyRectangle({ x, y, width: 20, height: 6 }));
         
-        // Goalmouths
+        // Goalmouth
         [[46, 7]]
             .forEach(([x, y]) => emptyRectangle({ x, y, width: 8, height: 3 }));
     
-        // Penalty Spots
+        // Penalty Spot
         [[50, 22]]
             .forEach(([cx, cy]) => filledCircle({ cx, cy, r: 0.5 }));
       
-        // Penalty Arcs
+        // Penalty Arc
         const rightPenaltyArc = d3.arc()
             .innerRadius(9)
             .outerRadius(9.2)
