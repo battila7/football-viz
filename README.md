@@ -2,7 +2,11 @@
 
 ## Megtekintés
 
-A vizualizáció megtekinthető http://honnanlojek.surge.sh/ oldalon, vagy a `web\index.html` állomány böngészőben történő megnyitásával.
+A vizualizáció megtekintése a következő módokon lehetséges:
+
+  * a http://honnanlojek.surge.sh/ oldalon, 
+  * a http://battila7.github.io/honnan-lojek oldalon,
+  * a `docs\index.html` állomány böngészőben történő megnyitásával.
 
 ## Adatfeldolgozás
 
