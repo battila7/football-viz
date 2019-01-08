@@ -27,7 +27,7 @@ Az így keletkező állomány már további számítási és feldolgozási lép�
 
 ## Megjelenítés
 
-A tényleges vizualizációt a `web` mappában található állományok írják le.
+A tényleges vizualizációt a `docs` mappában található állományok írják le.
 
 ### index.html
 
